@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE552A1C1C15914F00EA2A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE552A1B1C15914F00EA2A97 /* main.m */; };
+		CE552A1F1C15914F00EA2A97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE552A1E1C15914F00EA2A97 /* AppDelegate.m */; };
+		CE552A221C15914F00EA2A97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE552A211C15914F00EA2A97 /* ViewController.m */; };
+		CE552A251C15914F00EA2A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE552A231C15914F00EA2A97 /* Main.storyboard */; };
+		CE552A271C15915000EA2A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE552A261C15915000EA2A97 /* Assets.xcassets */; };
+		CE552A2A1C15915000EA2A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE552A281C15915000EA2A97 /* LaunchScreen.storyboard */; };
+		CE552A351C15915500EA2A97 /* ShareMateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE552A341C15915500EA2A97 /* ShareMateTests.m */; };
+		CE552A401C15915600EA2A97 /* ShareMateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE552A3F1C15915600EA2A97 /* ShareMateUITests.m */; };
+		CE552A4F1C15955000EA2A97 /* logo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE552A4E1C15955000EA2A97 /* logo_icon.png */; };
+		CE552A511C15955500EA2A97 /* share_mate_text.png in Resources */ = {isa = PBXBuildFile; fileRef = CE552A501C15955500EA2A97 /* share_mate_text.png */; };
+		CE552A541C1597AB00EA2A97 /* bg_image.png in Resources */ = {isa = PBXBuildFile; fileRef = CE552A531C1597AB00EA2A97 /* bg_image.png */; };
+		CE552A571C1597BD00EA2A97 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE552A561C1597BD00EA2A97 /* LoginViewController.m */; };
+		CE552A591C15991A00EA2A97 /* sign_up_google.png in Resources */ = {isa = PBXBuildFile; fileRef = CE552A581C15991A00EA2A97 /* sign_up_google.png */; };
+		CE552A5B1C15991F00EA2A97 /* sign_up_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CE552A5A1C15991F00EA2A97 /* sign_up_facebook.png */; };
+		CE552A5D1C15BE0D00EA2A97 /* dashboard_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = CE552A5C1C15BE0D00EA2A97 /* dashboard_pic.png */; };
+		CE552A611C15BEFF00EA2A97 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE552A601C15BEFF00EA2A97 /* DashboardViewController.m */; };
+		CE552A631C15C1A700EA2A97 /* profile_image.png in Resources */ = {isa = PBXBuildFile; fileRef = CE552A621C15C1A700EA2A97 /* profile_image.png */; };
+		CE552A651C15C1AB00EA2A97 /* three_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = CE552A641C15C1AB00EA2A97 /* three_dots.png */; };
+		CE8EF31D1C168DF900AF7CCE /* DashboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF31B1C168DF900AF7CCE /* DashboardCell.m */; };
+		CE8EF31E1C168DF900AF7CCE /* DashboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF31C1C168DF900AF7CCE /* DashboardCell.xib */; };
+		CE8EF3201C168F9F00AF7CCE /* dots_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF31F1C168F9F00AF7CCE /* dots_cell.png */; };
+		CE8EF3221C1690A800AF7CCE /* graph_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF3211C1690A800AF7CCE /* graph_cell.png */; };
+		CE8EF3241C169DA300AF7CCE /* dashboard_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF3231C169DA300AF7CCE /* dashboard_icon.png */; };
+		CE8EF3291C169DAE00AF7CCE /* plus_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF3251C169DAE00AF7CCE /* plus_icon.png */; };
+		CE8EF32A1C169DAE00AF7CCE /* mine_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF3261C169DAE00AF7CCE /* mine_icon.png */; };
+		CE8EF32B1C169DAE00AF7CCE /* group_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF3271C169DAE00AF7CCE /* group_icon.png */; };
+		CE8EF32C1C169DAE00AF7CCE /* notification_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF3281C169DAE00AF7CCE /* notification_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE552A311C15915500EA2A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE552A0F1C15914F00EA2A97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE552A161C15914F00EA2A97;
+			remoteInfo = ShareMate;
+		};
+		CE552A3C1C15915500EA2A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE552A0F1C15914F00EA2A97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE552A161C15914F00EA2A97;
+			remoteInfo = ShareMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE552A171C15914F00EA2A97 /* ShareMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE552A1B1C15914F00EA2A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE552A1D1C15914F00EA2A97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE552A1E1C15914F00EA2A97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE552A201C15914F00EA2A97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE552A211C15914F00EA2A97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE552A241C15914F00EA2A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE552A261C15915000EA2A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE552A291C15915000EA2A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE552A2B1C15915000EA2A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE552A301C15915500EA2A97 /* ShareMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE552A341C15915500EA2A97 /* ShareMateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareMateTests.m; sourceTree = "<group>"; };
+		CE552A361C15915500EA2A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE552A3B1C15915500EA2A97 /* ShareMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE552A3F1C15915600EA2A97 /* ShareMateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareMateUITests.m; sourceTree = "<group>"; };
+		CE552A411C15915600EA2A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE552A4E1C15955000EA2A97 /* logo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_icon.png; sourceTree = "<group>"; };
+		CE552A501C15955500EA2A97 /* share_mate_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_mate_text.png; sourceTree = "<group>"; };
+		CE552A531C1597AB00EA2A97 /* bg_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_image.png; sourceTree = "<group>"; };
+		CE552A551C1597BD00EA2A97 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CE552A561C1597BD00EA2A97 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CE552A581C15991A00EA2A97 /* sign_up_google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sign_up_google.png; sourceTree = "<group>"; };
+		CE552A5A1C15991F00EA2A97 /* sign_up_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sign_up_facebook.png; sourceTree = "<group>"; };
+		CE552A5C1C15BE0D00EA2A97 /* dashboard_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashboard_pic.png; sourceTree = "<group>"; };
+		CE552A5F1C15BEFF00EA2A97 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		CE552A601C15BEFF00EA2A97 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		CE552A621C15C1A700EA2A97 /* profile_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_image.png; sourceTree = "<group>"; };
+		CE552A641C15C1AB00EA2A97 /* three_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three_dots.png; sourceTree = "<group>"; };
+		CE8EF31A1C168DF900AF7CCE /* DashboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardCell.h; sourceTree = "<group>"; };
+		CE8EF31B1C168DF900AF7CCE /* DashboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardCell.m; sourceTree = "<group>"; };
+		CE8EF31C1C168DF900AF7CCE /* DashboardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardCell.xib; sourceTree = "<group>"; };
+		CE8EF31F1C168F9F00AF7CCE /* dots_cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dots_cell.png; sourceTree = "<group>"; };
+		CE8EF3211C1690A800AF7CCE /* graph_cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph_cell.png; sourceTree = "<group>"; };
+		CE8EF3231C169DA300AF7CCE /* dashboard_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashboard_icon.png; sourceTree = "<group>"; };
+		CE8EF3251C169DAE00AF7CCE /* plus_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_icon.png; sourceTree = "<group>"; };
+		CE8EF3261C169DAE00AF7CCE /* mine_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mine_icon.png; sourceTree = "<group>"; };
+		CE8EF3271C169DAE00AF7CCE /* group_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group_icon.png; sourceTree = "<group>"; };
+		CE8EF3281C169DAE00AF7CCE /* notification_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE552A141C15914F00EA2A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE552A2D1C15915500EA2A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE552A381C15915500EA2A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE552A0E1C15914F00EA2A97 = {
+			isa = PBXGroup;
+			children = (
+				CE552A5E1C15BEDC00EA2A97 /* DashboardScreen */,
+				CE552A521C15979D00EA2A97 /* LoginScreen */,
+				CE552A191C15914F00EA2A97 /* ShareMate */,
+				CE552A331C15915500EA2A97 /* ShareMateTests */,
+				CE552A3E1C15915600EA2A97 /* ShareMateUITests */,
+				CE552A181C15914F00EA2A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE552A181C15914F00EA2A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE552A171C15914F00EA2A97 /* ShareMate.app */,
+				CE552A301C15915500EA2A97 /* ShareMateTests.xctest */,
+				CE552A3B1C15915500EA2A97 /* ShareMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE552A191C15914F00EA2A97 /* ShareMate */ = {
+			isa = PBXGroup;
+			children = (
+				CE552A1D1C15914F00EA2A97 /* AppDelegate.h */,
+				CE552A1E1C15914F00EA2A97 /* AppDelegate.m */,
+				CE552A201C15914F00EA2A97 /* ViewController.h */,
+				CE552A211C15914F00EA2A97 /* ViewController.m */,
+				CE552A231C15914F00EA2A97 /* Main.storyboard */,
+				CE552A261C15915000EA2A97 /* Assets.xcassets */,
+				CE552A281C15915000EA2A97 /* LaunchScreen.storyboard */,
+				CE552A501C15955500EA2A97 /* share_mate_text.png */,
+				CE552A4E1C15955000EA2A97 /* logo_icon.png */,
+				CE552A2B1C15915000EA2A97 /* Info.plist */,
+				CE552A1A1C15914F00EA2A97 /* Supporting Files */,
+			);
+			path = ShareMate;
+			sourceTree = "<group>";
+		};
+		CE552A1A1C15914F00EA2A97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE552A1B1C15914F00EA2A97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE552A331C15915500EA2A97 /* ShareMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE552A341C15915500EA2A97 /* ShareMateTests.m */,
+				CE552A361C15915500EA2A97 /* Info.plist */,
+			);
+			path = ShareMateTests;
+			sourceTree = "<group>";
+		};
+		CE552A3E1C15915600EA2A97 /* ShareMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE552A3F1C15915600EA2A97 /* ShareMateUITests.m */,
+				CE552A411C15915600EA2A97 /* Info.plist */,
+			);
+			path = ShareMateUITests;
+			sourceTree = "<group>";
+		};
+		CE552A521C15979D00EA2A97 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE552A5A1C15991F00EA2A97 /* sign_up_facebook.png */,
+				CE552A581C15991A00EA2A97 /* sign_up_google.png */,
+				CE552A531C1597AB00EA2A97 /* bg_image.png */,
+				CE552A551C1597BD00EA2A97 /* LoginViewController.h */,
+				CE552A561C1597BD00EA2A97 /* LoginViewController.m */,
+			);
+			name = LoginScreen;
+			sourceTree = "<group>";
+		};
+		CE552A5E1C15BEDC00EA2A97 /* DashboardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EF3251C169DAE00AF7CCE /* plus_icon.png */,
+				CE8EF3261C169DAE00AF7CCE /* mine_icon.png */,
+				CE8EF3271C169DAE00AF7CCE /* group_icon.png */,
+				CE8EF3281C169DAE00AF7CCE /* notification_icon.png */,
+				CE8EF3231C169DA300AF7CCE /* dashboard_icon.png */,
+				CE8EF3211C1690A800AF7CCE /* graph_cell.png */,
+				CE8EF31F1C168F9F00AF7CCE /* dots_cell.png */,
+				CE552A621C15C1A700EA2A97 /* profile_image.png */,
+				CE552A641C15C1AB00EA2A97 /* three_dots.png */,
+				CE552A5C1C15BE0D00EA2A97 /* dashboard_pic.png */,
+				CE552A5F1C15BEFF00EA2A97 /* DashboardViewController.h */,
+				CE552A601C15BEFF00EA2A97 /* DashboardViewController.m */,
+				CE8EF31A1C168DF900AF7CCE /* DashboardCell.h */,
+				CE8EF31B1C168DF900AF7CCE /* DashboardCell.m */,
+				CE8EF31C1C168DF900AF7CCE /* DashboardCell.xib */,
+			);
+			name = DashboardScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE552A161C15914F00EA2A97 /* ShareMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE552A441C15915600EA2A97 /* Build configuration list for PBXNativeTarget "ShareMate" */;
+			buildPhases = (
+				CE552A131C15914F00EA2A97 /* Sources */,
+				CE552A141C15914F00EA2A97 /* Frameworks */,
+				CE552A151C15914F00EA2A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareMate;
+			productName = ShareMate;
+			productReference = CE552A171C15914F00EA2A97 /* ShareMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE552A2F1C15915500EA2A97 /* ShareMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE552A471C15915600EA2A97 /* Build configuration list for PBXNativeTarget "ShareMateTests" */;
+			buildPhases = (
+				CE552A2C1C15915500EA2A97 /* Sources */,
+				CE552A2D1C15915500EA2A97 /* Frameworks */,
+				CE552A2E1C15915500EA2A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE552A321C15915500EA2A97 /* PBXTargetDependency */,
+			);
+			name = ShareMateTests;
+			productName = ShareMateTests;
+			productReference = CE552A301C15915500EA2A97 /* ShareMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE552A3A1C15915500EA2A97 /* ShareMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE552A4A1C15915600EA2A97 /* Build configuration list for PBXNativeTarget "ShareMateUITests" */;
+			buildPhases = (
+				CE552A371C15915500EA2A97 /* Sources */,
+				CE552A381C15915500EA2A97 /* Frameworks */,
+				CE552A391C15915500EA2A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE552A3D1C15915500EA2A97 /* PBXTargetDependency */,
+			);
+			name = ShareMateUITests;
+			productName = ShareMateUITests;
+			productReference = CE552A3B1C15915500EA2A97 /* ShareMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE552A0F1C15914F00EA2A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = RVTECHNOLOGIES;
+				TargetAttributes = {
+					CE552A161C15914F00EA2A97 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CE552A2F1C15915500EA2A97 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CE552A161C15914F00EA2A97;
+					};
+					CE552A3A1C15915500EA2A97 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CE552A161C15914F00EA2A97;
+					};
+				};
+			};
+			buildConfigurationList = CE552A121C15914F00EA2A97 /* Build configuration list for PBXProject "ShareMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE552A0E1C15914F00EA2A97;
+			productRefGroup = CE552A181C15914F00EA2A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE552A161C15914F00EA2A97 /* ShareMate */,
+				CE552A2F1C15915500EA2A97 /* ShareMateTests */,
+				CE552A3A1C15915500EA2A97 /* ShareMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE552A151C15914F00EA2A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE552A2A1C15915000EA2A97 /* LaunchScreen.storyboard in Resources */,
+				CE552A4F1C15955000EA2A97 /* logo_icon.png in Resources */,
+				CE552A511C15955500EA2A97 /* share_mate_text.png in Resources */,
+				CE552A631C15C1A700EA2A97 /* profile_image.png in Resources */,
+				CE8EF3241C169DA300AF7CCE /* dashboard_icon.png in Resources */,
+				CE8EF3201C168F9F00AF7CCE /* dots_cell.png in Resources */,
+				CE552A591C15991A00EA2A97 /* sign_up_google.png in Resources */,
+				CE8EF3221C1690A800AF7CCE /* graph_cell.png in Resources */,
+				CE8EF32B1C169DAE00AF7CCE /* group_icon.png in Resources */,
+				CE552A271C15915000EA2A97 /* Assets.xcassets in Resources */,
+				CE552A651C15C1AB00EA2A97 /* three_dots.png in Resources */,
+				CE552A5D1C15BE0D00EA2A97 /* dashboard_pic.png in Resources */,
+				CE552A5B1C15991F00EA2A97 /* sign_up_facebook.png in Resources */,
+				CE8EF3291C169DAE00AF7CCE /* plus_icon.png in Resources */,
+				CE552A541C1597AB00EA2A97 /* bg_image.png in Resources */,
+				CE8EF31E1C168DF900AF7CCE /* DashboardCell.xib in Resources */,
+				CE552A251C15914F00EA2A97 /* Main.storyboard in Resources */,
+				CE8EF32C1C169DAE00AF7CCE /* notification_icon.png in Resources */,
+				CE8EF32A1C169DAE00AF7CCE /* mine_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE552A2E1C15915500EA2A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE552A391C15915500EA2A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE552A131C15914F00EA2A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE552A611C15BEFF00EA2A97 /* DashboardViewController.m in Sources */,
+				CE552A571C1597BD00EA2A97 /* LoginViewController.m in Sources */,
+				CE552A221C15914F00EA2A97 /* ViewController.m in Sources */,
+				CE552A1F1C15914F00EA2A97 /* AppDelegate.m in Sources */,
+				CE8EF31D1C168DF900AF7CCE /* DashboardCell.m in Sources */,
+				CE552A1C1C15914F00EA2A97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE552A2C1C15915500EA2A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE552A351C15915500EA2A97 /* ShareMateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE552A371C15915500EA2A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE552A401C15915600EA2A97 /* ShareMateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE552A321C15915500EA2A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE552A161C15914F00EA2A97 /* ShareMate */;
+			targetProxy = CE552A311C15915500EA2A97 /* PBXContainerItemProxy */;
+		};
+		CE552A3D1C15915500EA2A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE552A161C15914F00EA2A97 /* ShareMate */;
+			targetProxy = CE552A3C1C15915500EA2A97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE552A231C15914F00EA2A97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE552A241C15914F00EA2A97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE552A281C15915000EA2A97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE552A291C15915000EA2A97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE552A421C15915600EA2A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE552A431C15915600EA2A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE552A451C15915600EA2A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RVTECH.ShareMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE552A461C15915600EA2A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RVTECH.ShareMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE552A481C15915600EA2A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RVTECH.ShareMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareMate.app/ShareMate";
+			};
+			name = Debug;
+		};
+		CE552A491C15915600EA2A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RVTECH.ShareMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareMate.app/ShareMate";
+			};
+			name = Release;
+		};
+		CE552A4B1C15915600EA2A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RVTECH.ShareMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareMate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE552A4C1C15915600EA2A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RVTECH.ShareMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareMate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE552A121C15914F00EA2A97 /* Build configuration list for PBXProject "ShareMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE552A421C15915600EA2A97 /* Debug */,
+				CE552A431C15915600EA2A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE552A441C15915600EA2A97 /* Build configuration list for PBXNativeTarget "ShareMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE552A451C15915600EA2A97 /* Debug */,
+				CE552A461C15915600EA2A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE552A471C15915600EA2A97 /* Build configuration list for PBXNativeTarget "ShareMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE552A481C15915600EA2A97 /* Debug */,
+				CE552A491C15915600EA2A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE552A4A1C15915600EA2A97 /* Build configuration list for PBXNativeTarget "ShareMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE552A4B1C15915600EA2A97 /* Debug */,
+				CE552A4C1C15915600EA2A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE552A0F1C15914F00EA2A97 /* Project object */;
+}
