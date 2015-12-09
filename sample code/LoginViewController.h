@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBAudienceNetwork/FBAudienceNetwork.h>
 
 @interface LoginViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIView *down_arrow;
+- (IBAction)facebook_login:(id)sender;
 
 @end

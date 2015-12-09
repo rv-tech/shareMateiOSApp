@@ -20,6 +20,8 @@ DashboardCell *cell4;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _plus_button.layer.cornerRadius = 15;
+    _plus_button.clipsToBounds = YES;
 }
 
 - (void)didReceiveMemoryWarning {
